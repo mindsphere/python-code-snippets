@@ -1,6 +1,6 @@
 # Generate a techUserToken for further interactions with the MindSphere APIs
 
-The `SetUserToken()` function uses your `client_id` and `client_secret` to get a *techUserToken*.
+The `SetUserToken()` function uses your `client_id` and `client_secret` to get a *techUserToken*. You can find the `SetUserToken()` function [here](auth.py).
 
 Example output:
 
