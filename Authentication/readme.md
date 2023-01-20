@@ -2,5 +2,8 @@
 
 The `SetUserToken()` function uses your `client_id` and `client_secret` to get a *techUserToken*.
 
-> This function was tested on Python 3.10.8
+Example output:
 
+![auth.png](auth.png)
+
+> Info: this function was run and tested on python version 3.10.8
