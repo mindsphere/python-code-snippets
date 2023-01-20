@@ -7,6 +7,9 @@ import requests
 import json
 gateway = 'https://gateway.eu1.mindsphere.io'
 technicalTokenMgmtAPI = '/api/technicaltokenmanager/v3'
+clientID = "Your clientID here"
+clientSECRET = "Your clientSECRET here"
+userTenant = "Your userTenant here" # <- if you want to access abcxyz.eu1.mindsphere.io, you need to set userTenant = "abcxyz"
 
 def SetUserToken(id: str, secret: str) -> str:
     ServiceUrl = gateway + technicalTokenMgmtAPI + '/oauth/token'
