@@ -9,6 +9,8 @@ Function inputs:
 - `clientID` (string, should be in the form of *hostTenant-appName-appVersion*, e.g. exapleTenant-exampleApp-v0.0.1-1234567)
 - `clientSECRET` (string)
 
+> PLEASE NOTE: don't get confused with `userTenant` and `hostTenant`. Unless the app, that is granting your credentials (`clientID` & `clientSECRET`) is running on a different tenant than the one you want to access, your ùserTenant` = `hostTenant`. Visit the [MindSphere Documentation](https://documentation.mindsphere.io/MindSphere/apis/exchange-tokenmanager/api-tokenmanager-api.html) for more information.
+
 Example output:
 
 ![auth.png](doc/auth.png)
