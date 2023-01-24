@@ -6,6 +6,6 @@ You can find the `SetUserToken()` function [HERE](auth.py).
 
 Example output:
 
-![auth.png](auth.png)
+![auth.png](doc/auth.png)
 
 > Info: this function was run and tested on python version 3.10.8
