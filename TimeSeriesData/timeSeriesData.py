@@ -6,7 +6,7 @@ import json
 gateway = 'https://gateway.eu1.mindsphere.io'
 IotTimeSeriesAPI = '/api/iottimeseries/v3/'
 deviceId = 'Your AssetID here'
-propertySetName 'Your Aspect Name here'
+propertySetName = 'Your Aspect Name here'
 
 # Helper function to format MindSpheres str timestamp to a python datetime object
 def ToDateObject(Date_In : str) -> datetime.datetime:
