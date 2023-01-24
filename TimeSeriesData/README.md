@@ -1,4 +1,4 @@
-# Get and store Timeseries Data using MindSphere's TimeSeries API
+# Get and store Timeseries Data using MindSphere's Timeseries API
 
 This function uses your [techUserToken](../Authentication/auth.py) to read TimeSeries data from a specified time interval and stores them in a `pd.dataframe` for further data processing.
 
