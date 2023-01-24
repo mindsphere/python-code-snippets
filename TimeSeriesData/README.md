@@ -8,6 +8,8 @@ Function Inputs:
 
 > PLEASE NOTE: by default, the `timeSeriesData()` function is accessing the *global variable* `techUserToken`. If don't want to use global variables, you need to pass the `techUserToken` as a third input for the `timeSeriesData()` function.
 
+> The `timeSeriesData()` function is using the helper function *`ToDateObject`*. This usage is optional, but converting the dataframe timestamps from `str` to `datetime.datetime` is needed for many further steps like plotting, calculation and analysis... 
+
 Example Output:
 
 ![example time series data output](doc/timeSeriesData.png)
