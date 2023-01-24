@@ -1,8 +1,12 @@
 # Get and store Timeseries Data using MindSphere's Timeseries API
 
-This function uses your [techUserToken](../Authentication/auth.py) to read TimeSeries data from a specified time interval and stores them in a `pd.dataframe` for further data processing.
+This function uses your [techUserToken](../Authentication/auth.py) to read TimeSeries data from a specified time interval and stores them in a `pd.dataframe` for further data processing. You can find the `timeSeriesData()` function [HERE](timeSeriesData.py).
 
-You can find the `timeSeriesData()` function [HERE](timeSeriesData.py).
+Function Inputs:
+- `start_date` (string in the form of '%Y-%m-%dT%H:%M:%S.%fZ')
+- `end_date` (string in the form of '%Y-%m-%dT%H:%M:%S.%fZ')
+
+> Note: the `timeSeriesData()` function is referring to the *global variable* `techUserToken`. If don't want to use global variables, you need to pass the `techUserToken` as a third input for the `timeSeriesData()` function.
 
 Example Output:
 
