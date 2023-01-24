@@ -3,11 +3,11 @@
 The `SetUserToken()` function uses your `client_id` and `client_secret` to get a *techUserToken*. You can find the `SetUserToken()` function in the [auth.py](auth.py) file.
 
 Function structure:
-- `SetUserToken(client_id, client_secret) -> str:`
+- `SetUserToken(clientID, clientSECRET) -> str:`
 
 Function inputs:
-- `client_id` (string, should be in the form of *hostTenant-appName-appVersion*, e.g. exapleTenant-exampleApp-v0.0.1-1234567)
-- `client_secret` (string)
+- `clientID` (string, should be in the form of *hostTenant-appName-appVersion*, e.g. exapleTenant-exampleApp-v0.0.1-1234567)
+- `clientSECRET` (string)
 
 Example output:
 
