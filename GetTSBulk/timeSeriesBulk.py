@@ -29,6 +29,6 @@ def timeSeriesBulk(start_date: str, end_date: str) -> pd.DataFrame:
       print(f'[{response.status_code}] - Error ')
       raise ValueError
   data = json.loads(response.content)
-  timeseries_data= pd.DataFrame.from_dict(data['records'])
-  timeseries_data['_time'] = timeseries_data['_time'].map(lambda x: ToDateObject(x))
-  return timeseries_data
+  timeseries_bulk_data= pd.DataFrame.from_dict(data['records'])
+  timeseries_bulk_data['_time'] = timeseries_bulk_data['_time'].map(lambda x: ToDateObject(x))
+  return timeseries_bulk_data
