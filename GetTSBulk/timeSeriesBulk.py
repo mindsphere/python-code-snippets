@@ -24,9 +24,9 @@ def timeSeriesBulk(start_date: str, end_date: str) -> pd.DataFrame:
   response = requests.request('GET', ServiceUrl, headers={'Authorization': 'Bearer ' + techUserToken, 'accept':'*/*', 'cache-control':'no-cache', 'Content-Type':'application/json'})
   response_data = json.loads(response.text)
   if response.status_code == 200:
-      print ('[200] - OK: asset data received')
+      print (f'[{response.status_code}] - OK: asset data received')
   else:
-      print('Error creating configuration file:')
+      print(f'[{response.status_code}] - Error ')
       raise ValueError
   data = json.loads(response.content)
   timeseries_data= pd.DataFrame.from_dict(data['records'])
