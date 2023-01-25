@@ -1,4 +1,4 @@
-# Get and store over 2000 Datapoints using MindSpheres Timeseries Bulk API
+# Get and store over 2000 Datapoints using MindSpheres IoT Time Series Bulk API
 
 This function uses your [techUserToken](./Authentication/auth.py) to read Timeseries data from a specified time interval and stores them in a `pd.dataframe` for further data processing. You can find the `timeSeriesBulk()` function in the [timeSeriesBulk.py](timeSeriesBulk.py) file. You can use the Timeseries Bulk API if you want to retreive more than 2000 datapoints in a single API call.
 
