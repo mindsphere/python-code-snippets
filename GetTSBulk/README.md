@@ -15,7 +15,7 @@ Function inputs:
 
 Example Output:
 
-[Example Bulk Output](doc/timeSeriesBulk.png)
+![Example Bulk Output](doc/timeSeriesBulk.png)
 
 > Info: this function was run and tested on python version 3.10.8
 
