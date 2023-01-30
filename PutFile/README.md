@@ -11,7 +11,7 @@ Function inputs:
 > PLEASE NOTE: by default, the `PutFile()` function is accessing the *global variable* `techUserToken`. If you don't want to use global variables, you need to pass the `techUserToken` as a third input for the `PutFile()` function.
 
 > PLEASE NOTE: In this example, the file to upload is located in the same directory as the [PutFile.py](/PutFile.py) file.
->> ![Directory](doc/putFile_File_Structure.png)
+> ![Directory](doc/putFile_File_Structure.png)
 >
 > If you want to upload a file from a different directory, you must specify the directory path when calling `datafile.open('Path_To_Directory', 'rb')`
 
