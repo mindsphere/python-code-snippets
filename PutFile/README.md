@@ -12,7 +12,7 @@ Function inputs:
 
 > PLEASE NOTE: In this example, the file to upload is located in the same directory as the [PutFile.py](/PutFile.py) file.
 >> ![Directory](doc/putFile_File_Structure.png)
-
+>
 > If you want to upload a file from a different directory, you must specify the directory path when calling `datafile.open('Path_To_Directory', 'rb')`
 
 Example Output:
